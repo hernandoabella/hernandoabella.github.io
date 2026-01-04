@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "Hello World"
+categories: [blog]
+tags: [jekyll, github]
 ---
 
-My blog is live using **GitHub Pages + Jekyll** 🚀
+Este es mi **primer post** en GitHub Pages 🚀
+
+Si lees esto, **todo funciona correctamente**.

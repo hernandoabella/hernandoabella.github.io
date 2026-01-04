@@ -1,4 +1,18 @@
-<link rel="icon" href="/assets/favicon/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-<link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    {% seo %}
+
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  </head>
+
+  <body>
+    <main style="max-width: 800px; margin: auto; padding: 2rem;">
+      {{ content }}
+    </main>
+  </body>
+</html>

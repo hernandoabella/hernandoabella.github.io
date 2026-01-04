@@ -4,17 +4,11 @@ title: Tags
 permalink: /tags/
 ---
 
+{% for tag in site.tags %}
+## {{ tag[0] }}
 <ul>
-  {% for tag in site.tags %}
-    <li>
-      <strong>{{ tag[0] }}</strong>
-      <ul>
-        {% for post in tag[1] %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </li>
+  {% for post in tag[1] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+{% endfor %}

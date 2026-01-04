@@ -4,17 +4,11 @@ title: Categories
 permalink: /categories/
 ---
 
+{% for category in site.categories %}
+## {{ category[0] }}
 <ul>
-  {% for category in site.categories %}
-    <li>
-      <strong>{{ category[0] }}</strong>
-      <ul>
-        {% for post in category[1] %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </li>
+  {% for post in category[1] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+{% endfor %}

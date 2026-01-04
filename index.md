@@ -1,8 +1,3 @@
 ---
-layout: default
-title: Home
+layout: home
 ---
-
-# Bienvenido 👋
-
-Este es mi blog sobre código, herramientas y automatización.
