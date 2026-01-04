@@ -1,11 +1,14 @@
 title: Hernando’s Blog
 description: Notes on code, tools, and automation
+url: https://hernandoabella.github.io
+
 theme: minima
-
-author: Hernando Abella
-
 markdown: kramdown
 permalink: /:categories/:title/
 
+author:
+  name: Hernando Abella
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
