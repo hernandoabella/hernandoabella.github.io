@@ -1,3 +1,17 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Hernando’s Blog
+description: Notes on code, tools, and automation
+author: Hernando Abella
+
+theme: minima
+
+# Base URL settings (IMPORTANT for GitHub Pages)
+baseurl: "" 
+url: "https://hernandoabella.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-feed
