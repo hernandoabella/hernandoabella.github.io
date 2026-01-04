@@ -7,3 +7,6 @@ author:
 
 markdown: kramdown
 permalink: /:categories/:title/
+
+plugins:
+  - jekyll-seo-tag
