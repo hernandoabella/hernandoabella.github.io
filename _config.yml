@@ -2,8 +2,7 @@ title: Hernando’s Blog
 description: Notes on code, tools, and automation
 theme: minima
 
-author:
-name: Hernando Abella
+author: Hernando Abella
 
 markdown: kramdown
 permalink: /:categories/:title/
