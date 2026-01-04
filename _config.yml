@@ -3,7 +3,7 @@ description: Notes on code, tools, and automation
 theme: minima
 
 author:
-  name: Hernando Abella
+name: Hernando Abella
 
 markdown: kramdown
 permalink: /:categories/:title/
