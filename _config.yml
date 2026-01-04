@@ -1,14 +1,3 @@
-title: Hernando’s Blog
-description: Notes on code, tools, and automation
-url: https://hernandoabella.github.io
-
-theme: minima
-markdown: kramdown
-permalink: /:categories/:title/
-
-author:
-  name: Hernando Abella
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
+theme: jekyll-theme-minimal
+title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
