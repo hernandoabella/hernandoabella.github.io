@@ -1,60 +1,33 @@
-# Site Settings
-title: "Hernando’s Blog"
-tagline: "Building the future through code and automation."
-description: >- # This helps with SEO search snippets
-  A digital garden by Hernando Abella focusing on clean code, 
-  efficient developer tools, and the power of automation.
-author: 
-  name: "Hernando Abella"
-  email: "hernandoabella@gmail.com"
-  twitter_username: "hernandoabella"
-  github_username: "hernandoabella"
+title: Hernando’s Blog
+description: Notes on code, tools, and automation
+author: Hernando Abella
 
-# URL & Path Settings
-url: "https://hernandoabella.github.io"
-baseurl: "" # Empty for root domain
-permalink: /posts/:title/
-
-# Theme & Appearance
 theme: minima
-minima:
-  skin: dark # Keep it sleek for devs
-  show_excerpts: true
-  date_format: "%b %-d, %Y"
-  social_links:
-    - { platform: github, user_username: hernandoabella }
-    - { platform: twitter, user_username: yourusername }
-    - { platform: linkedin, user_username: yourusername }
 
-# Build Settings
+# Base URL settings (IMPORTANT for GitHub Pages)
+baseurl: ""
+url: "https://hernandoabella.github.io"
+
+# Build settings
 markdown: kramdown
-highlighter: rouge
-lsi: false
+permalink: /:categories/:title/
 
-# Power-Up Plugins
-# These add SEO tags, sitemaps, and better feed support
+# Plugins supported by GitHub Pages
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
 
-# Pagination (Essential for a growing blog)
-paginate: 5
-paginate_path: "/blog/page:num/"
-
-# Navigation (Organized for clarity)
+# Navigation menu
 header_pages:
+  - index.md
   - blog.md
-  - categories.md
   - tags.md
+  - categories.md
   - about.md
 
-# Exclusion List (Keeps your site lean)
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - .sass-cache/
-  - .jekyll-cache/
+# Minima options
+show_excerpts: true
+
+minima:
+  skin: dark
+
+highlighter: rouge
