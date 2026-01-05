@@ -20,6 +20,8 @@ plugins:
 header_pages:
   - index.md
   - blog.md
+  - tags.md
+  - categories.md
   - about.md
 
 # Minima options
@@ -27,3 +29,5 @@ show_excerpts: true
 
 minima:
   skin: dark
+
+highlighter: rouge
