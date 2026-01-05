@@ -5,7 +5,7 @@ author: Hernando Abella
 theme: minima
 
 # Base URL settings (IMPORTANT for GitHub Pages)
-baseurl: "" 
+baseurl: ""
 url: "https://hernandoabella.github.io"
 
 # Build settings
@@ -15,3 +15,15 @@ permalink: /:categories/:title/
 # Plugins supported by GitHub Pages
 plugins:
   - jekyll-feed
+
+# Navigation menu
+header_pages:
+  - index.md
+  - blog.md
+  - about.md
+
+# Minima options
+show_excerpts: true
+
+minima:
+  skin: dark
